@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms Excercise - Registration</title>
+</head>
+<body>
+	<h1>Register</h1>
+	<form>
+		<label for="First Name">First Name:</label>
+			<input id="First Name" type="text" name="FIRST NAME" placeholder="First Name" required>
+		<label for="Last Name">Last Name:</label>
+			<input id="Last Name" type="text" name="LAST NAME" placeholder="Last Name" required>
+		<div>
+			<label for="male">Male</label>
+				<input id="male" type="radio" name="Gender" value="male">
+			<label for="female">Female</label>
+				<input id="female" type="radio" name="Gender" value="female">
+			<label for="other">Other</label>
+				<input id="other" type="radio" name="Gender" value="other">
+		</div>
+		<div>
+			<label for="email">Email:</label>
+				<input type="email" name="email" placeholder="Email" required>
+			<label for="password">Password:</label>
+				<input type="password" name="password" placeholder="Password" required pattern=".{5,10}" title="Between 5 to 10 characters please.">
+		</div>
+		<div>
+			<label>
+				Birthday:
+				<select name="Month" required>
+					<option selected>Month</option>
+					<option>Jan</option>
+					<option>Feb</option>
+					<option>March</option>
+				</select>
+				<select name="Day" required>
+					<option selected>Day</option>
+					<option>10</option>
+					<option>20</option>
+					<option>30</option>
+				</select>
+				<select name="Year" required>
+					<option selected>Year</option>
+					<option>1990</option>
+					<option>1995</option>
+					<option>2000</option>
+				</select>
+			</label>
+		</div>
+		<!-- I agree to the terms and conditions -->
+		<label for="tnc">I agree to the terms and conditions</label>
+			<input id="tnc" type="checkbox" name="TNC" value="accepted" required>
+		<div>
+			<input type="submit" name="submit">
+		</div>
+	</form>
+</body>
+</html>
