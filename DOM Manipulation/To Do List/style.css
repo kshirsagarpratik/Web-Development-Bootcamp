@@ -1,0 +1,12 @@
+.highlight{
+	color: green;
+}
+
+.fade{
+	color: black;
+}
+
+.strikeout{
+	text-decoration: line-through;
+	opacity: 0.5;
+}
