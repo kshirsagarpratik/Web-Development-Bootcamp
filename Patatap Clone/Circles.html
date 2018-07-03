@@ -187,6 +187,12 @@
 			var target = arrayCircles[i];
 			target.fillColor.hue += 1;
 			target.scale(.9);
+			if(target.area < 1){
+		      target.remove(); // remove the circle from the canvas
+		      arrayCircles.splice(i, 1); // remove the circle from the array
+		      i--; // decrement i so that the loop doesn't skip a circle because of .splice()
+		      console.log(arrayCircles);
+		    }
 		}
 	}
 </script>
