@@ -1,0 +1,16 @@
+{
+  "name": "movie-db-api",
+  "version": "1.0.0",
+  "description": "Movie DB API exercise.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pratik Kshirsagar",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "request": "^2.87.0"
+  }
+}
