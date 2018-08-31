@@ -1,7 +1,7 @@
 # Web-Development-Bootcamp
 All tasks and exercises from Colt Steele's Web Development Bootcamp on Udemy. The final project consists of YelpCamp, a full stack web application, a toy replica of Yelp for campsites to say, and involved in using all the technologies we covered so far in the course.
 
-The topics covered extensively in this repository in the form of coding assignments and such are:
+## The topics covered extensively in this repository in the form of coding assignments and such are:
 
 1. Course Basics
 2. Introduction to Front End 
